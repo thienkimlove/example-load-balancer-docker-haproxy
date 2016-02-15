@@ -1,0 +1,7 @@
+web:
+  image: thienkimlove/docker-app
+  volumes:
+    - .:/srv/www
+  environment:
+     VIRTUAL_HOST: docker.tuelinh.vn
+
