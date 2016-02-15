@@ -2,6 +2,7 @@ web:
   image: thienkimlove/docker-app
   volumes:
     - .:/srv/www
+    - /var/run/mysqld/mysqld.sock:/var/run/mysqld/mysqld.sock
   environment:
      VIRTUAL_HOST: docker.tuelinh.vn
 
