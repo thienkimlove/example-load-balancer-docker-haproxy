@@ -1,8 +1,9 @@
 web:
   image: thienkimlove/docker-app
+  restart: always
   volumes:
     - .:/srv/www
     - /var/run/mysqld/mysqld.sock:/var/run/mysqld/mysqld.sock
   environment:
-     VIRTUAL_HOST: docker.tuelinh.vn
+     VIRTUAL_HOST: docker3.tuelinh.vn
 
