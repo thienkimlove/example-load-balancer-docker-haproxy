@@ -7,3 +7,4 @@ Homestead.json
 .idea
 supervisord.pid
 supervisord.log
+docker-compose.yml
