@@ -1,5 +1,5 @@
 web:
-  image: thienkimlove/docker-app
+  image: thienkimlove/docker-app-no-database
   restart: always
   volumes:
     - .:/srv/www
