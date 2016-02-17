@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    return redirect('home');
+    echo  $_SERVER['SERVER_ADDR']; 
+   # return redirect('home');
 });
 
 /*

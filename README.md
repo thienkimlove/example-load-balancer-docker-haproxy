@@ -1,4 +1,21 @@
-# docker-app-no-database
+# using  docker-app-no-database as example of scale using tutumn/haproxy
+
+# setup
+
+
+First run with one web container : docker-compose up -d
+
+Benmark : ab -n 1000 -c 100 http://docker4.tuelinh.vn/
+
+
+Scale : docker-compose scale web=5
+
+Benmakr again using apacheBench.
+
+
+#normal setup
+
+
 
 RUN nginx proxy
 
