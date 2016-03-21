@@ -12,7 +12,8 @@
 */
 
 Route::get('/', function () {
-    echo  $_SERVER['SERVER_ADDR']; 
+    $users = \App\User::all();
+    return view('welcome', compact('users'));
    # return redirect('home');
 });
 
